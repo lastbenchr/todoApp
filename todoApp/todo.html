@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript - Todo List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="todo.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+    <h2>#todo</h2>
+    <!-- Tab links -->
+    <div class="tab">
+      <button class="tablinks one" id="cute" >All</button>
+      <button class="tablinks two">Active</button>
+      <button class="tablinks three">Completed</button>
+    </div>
+    <!-- Input field and Button -->
+    <div id="wrapper">
+      <input type="text" id="input" name="" placeholder="Add Your Task...">
+      <button type="button" id="myBtn" class="button button1" onclick="myFunction()">Add</button>
+    </div>
+    <div class="content">
+      <ul id="list">
+      </ul>
+  </div>
+  <script src="todo.js" ></script>
+</body>
+</html>
